@@ -16,6 +16,8 @@
 * Wins & Learning
 * Areas For Future Development
 
+<img src="https://i.imgur.com/tjtBJJB.png" width="900" height="600" />
+
 ## Project Overview ##
 
 The third project for the General Assembly Software Engineer Immersive course is a group project where we built a full-stack application. We took inspiration from Depop and created a website where developers and creators can share project ideas. We had a week to complete it and I worked with Holly Partridge, David Harvey and Michael Von Etzdorf.
@@ -33,7 +35,7 @@ Build a complete product with multiple relationships and CRUD functionality and 
 
 ## Deployment ## 
 
-Link here
+Link [**here**](https://eepop.netlify.app/ "here")
 
 ## Technologies Used ## 
 
@@ -110,6 +112,8 @@ Tuesday
 
 Below is a screenshot of the planning that we did as a group. 
 
+<img src="https://i.imgur.com/tjtBJJB.png" width="900" height="600" />
+
 ## The Build Back End ## 
 
 As a group, we started building the back end, David was screen sharing as we helped guide him through what we wanted and what was required. We used resources from small workshops we had done in the previous week. We built the index, environment and helper files firstly. As the team was building the seed files, I went and added some example projects so we would have some information to retrieve in testing. We only built the models and seeded the project files, to begin with, as we wanted to start building the front end and pulling through the data for the projects so we could start building the index and show pages. David came back later in the week and added the models for the Users.
@@ -122,12 +126,16 @@ In projectSchema, we listed out the twelve different keys we need to create the 
 
 With the userSchema, extra care is taken to the types of information that is stored in the MongoDB database. It would be unethical and illegal to store users' passwords in a readable, accessible format. The use of Mongoose unique validator and bcrypt ensures that the passwords are encrypted before they are saved to the database. 
 
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+
 #### Router ####
 
 We built the router in the backend as a separate file in the config folder. We started by creating two routes, “/projects” and “/projects/projectId”. By using these routes we could code a “.get(projects.index)” and “.get(projects.show)”. We could use this router code in our front end API page to retrieve information on the projects and start creating an index page and a show page. 
 
 We continually added more routes and controllers as and when we needed them for our backend. After projects, we added user routes with authentication and then secure routes for the projects. Primarily David was responsible for this but we did code along as a team.
 
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
 
 #### Authentication & Error Handling #### 
 
@@ -135,6 +143,9 @@ By the third day, we had implemented the error handling and secure routes and us
 
 When building the back end it was key to have error handling so if the testing doesn’t work, we have more of an idea why. We added a 404 error if the server was unable to find the requested page. We also added a 422 error which is a validation error that means you do not have permission for the page. 
 
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
 
 ## The Build Front End ## 
 
@@ -146,23 +157,40 @@ This is the API page where the get requests were refactored too. “getAllCharac
 
 The API page for Epop is a lot more complicated than the project 2 I completed weeks prior. One advantage is that due to our team making the back end, we didn’t have any dodgy RESTful API documentation to follow. The introduction of “.post” allowed the user to pass information to the back end. Posting the information needed to build projects, register and log in. The “.delete” restful route allows the user to delete projects they have created. 
 
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+
 #### Navigation #### 
 
 There were two main challenges when navigating a larger application like Epop. First of all, we wanted to ensure the users could access the correct destinations from the navbar. The second challenge is that we wanted the Navbar to look and feel like one from Depop’s website.
 
 The four destinations you can access from the Navbar are: “/” which is the home page, “/favourites” which allows authorised users to see their favourited projects, “/projects/create” which allows authorised users to upload projects. “/register” is the registration page where users can sign up with their details. “/login” is the login page where users can log in to the website. Once logged in, the favourites, upload and log out are now accessible to the user. This conditional rendering works by using the “isAuth” const and a ternary operator. If “isAuth” is true (the user is logged in) the favourites, upload and log out features are shown. If false they are not shown. 
 
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+
 #### Add Comment #### 
 
 The ability to add comments to projects you like was one of the goals we had for this project. What is a comment? And where do they go? The route for a comment you can see on the Axios.post request. The comments URL is “/API/projects/projectId/comments”, this ensures that the comments end up on the correct pages. The Axios section should have been refactored onto the API page but we must not have gotten around to it. Although it makes the readability worse as the code is longer, it does make it easier to understand what goes on the page if you haven’t looked at the code in a while. 
+
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
 
 
 #### Styling #### 
 
 For styling, we chose to use SASS rather than a more encompassing styling framework like Bootstrap or Bulma. As you can see from the examples below we are quite close to the themes that are on Depop. I will show some snippets of the code which contribute to this effect.
 
-In order to style in SASS, I first wrote out what content I needed on the page. In this code snippet, you can see I have written a div called “hero” with a nested “<h1>” and “<p>” element inside it. Using flexbox in the SASS gave me greater control over how they were positioned relative to other “<div>” on the page. I added in a media query that reduces the sizing of the “hero” section when on a smaller screen. 
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
 
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+
+In order to style in SASS, I first wrote out what content I needed on the page. In this code snippet, you can see I have written a div called “hero” with a nested `<h1>` and `<p>` element inside it. Using flexbox in the SASS gave me greater control over how they were positioned relative to other `<div>` on the page. I added in a media query that reduces the sizing of the “hero” section when on a smaller screen. 
+
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+
+<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
 
 ## Bugs ## 
 
