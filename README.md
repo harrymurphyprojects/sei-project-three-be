@@ -1,42 +1,41 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project Three Back End
-
-Project 3 Epop ReadMe
-
-Table of Contents 
-
-Project Overview
-Brief
-Timeframe
-Deploy Link
-Technologies Used
-Planning
-Build
-Bugs
-Challenges
-Wins & Learning
-Areas For Future Development
+# Project Three Epop README #
 
 
-Project Overview
+
+**Contents** 
+
+* Project Overview
+* Brief
+* Timeframe
+* Deploy Link
+* Technologies Used
+* Planning
+* Build
+* Bugs
+* Challenges
+* Wins & Learning
+* Areas For Future Development
+
+## Project Overview ##
 
 The third project for the General Assembly Software Engineer Immersive course is a group project where we built a full-stack application. We took inspiration from Depop and created a website where developers and creators can share project ideas. We had a week to complete it and I worked with Holly Partridge, David Harvey and Michael Von Etzdorf.
 
-Project Brief 
+## Project Brief ## 
 
 Build a full-stack application by making your back-end and your front-end.
 Build and use an Express API to serve your data from a Mongo database.
 Build a complete product with multiple relationships and CRUD functionality and have multiple models. 
 
-Time Frame
+## Time Frame ## 
 
 7 Days
 
 
-Deployment
+## Deployment ## 
 
 Link here
 
-Technologies Used
+## Technologies Used ## 
 
 HTML
 CSS
@@ -52,7 +51,7 @@ Git
 GitHub
 bcrypt
 
-Planning
+## Planning ## 
 
 Being in a group of four, there were a lot of different creative ideas that were flowing around. We all agreed that instead of designing a completely new site, we would better showcase our styling skills by cloning a site. We liked the way Depop and The Dots displayed information and decided we will use them for inspiration. Instead of selling clothes like Depop, we wanted to share developer ideas for websites and projects. Once we had the creative ideas set, we wanted to note down what were requirements for the MVP and what would be the stretch goals. 
 
@@ -113,7 +112,7 @@ Troubleshooting (All)
 
 Below is a screenshot of the planning that we did as a group. 
 
-The Build Back End
+## The Build Back End ## 
 
 As a group, we started building the back end, David was screen sharing as we helped guide him through what we wanted and what was required. We used resources from small workshops we had done in the previous week. We built the index, environment and helper files firstly. As the team was building the seed files, I went and added some example projects so we would have some information to retrieve in testing. We only built the models and seeded the project files, to begin with, as we wanted to start building the front end and pulling through the data for the projects so we could start building the index and show pages. David came back later in the week and added the models for the Users.
 
@@ -144,7 +143,7 @@ When building the back end it was key to have error handling so if the testing d
 
 
 
-The Build Front End
+## The Build Front End ## 
 When building the front end we started off Holly built the Homepage, whilst I built the Explore page and Mike built the Show page. We all helped each other where we could and David would code along with us when he wasn’t on the back end. It was important to build the Explore page and show page as we could retrieve the information from the back end. We built an API and followed the rules set by the back end and it worked. 
 
 API
@@ -185,23 +184,23 @@ In order to style in SASS, I first wrote out what content I needed on the page. 
 
 
 
-Bugs
+## Bugs ## 
 
 On the homepage, some links and buttons take the user back to the homepage instead of their intended areas of the app, which is a bug but also room for development. Adding in the correct destination pages would resolve this. 
 
 Another bug that has occurred recently is the data not pulling through from the back end, not sure why this has stopped working a month down the road from deployment however I will fix it ASAP.
 
-Challenges
+## Challenges## 
 
 One of the main challenges and wins was working in a large group. There were 4 of us working at the same time, so making sure you weren't duplicating work took a lot of communication. Then also working through merge conflicts was a new thing for me to learn. Because the work was so divided up I didn’t get as much time as I’d like to work on the back end which is one of the reasons why in my next project I wanted to do it all myself. 
 
-Wins & Learning 
+## Wins & Learning ## 
 
 A win for the project is the styling, we used SASS and got very close to how Depop is styled. Especially on the front page, this grew my confidence in using SASS over a more comprehensive Framework like Bulma or Bootstrap.
 
 I learned a lot about how React works in this project. We had a lot of functionality with the separate Users and Projects data. We used 7 different Axios requests which gave us a lot of functionality on the front end.
 
-Area For Future Development
+## Area For Future Development ## 
 
 One future development stretch goal that I would add is some extra security by adding email verification when you create your profile so if the user loses their password they can go through the normal password reset protocol you see on a lot of websites. 
 
