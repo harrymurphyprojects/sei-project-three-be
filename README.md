@@ -184,15 +184,15 @@ The ability to add comments to projects you like was one of the goals we had for
 
 For styling, we chose to use SASS rather than a more encompassing styling framework like Bootstrap or Bulma. As you can see from the examples below we are quite close to the themes that are on Depop. I will show some snippets of the code which contribute to this effect.
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/J2xBAQm.png" width="600" height="500" />
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/j60DZnc.png" width="600" height="500" />
 
 In order to style in SASS, I first wrote out what content I needed on the page. In this code snippet, you can see I have written a div called “hero” with a nested `<h1>` and `<p>` element inside it. Using flexbox in the SASS gave me greater control over how they were positioned relative to other `<div>` on the page. I added in a media query that reduces the sizing of the “hero” section when on a smaller screen. 
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/2uxPt4g.png" width="600" height="600" />
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/CSoJsiO.png" width="600" height="700" />
 
 ## Bugs ## 
 
