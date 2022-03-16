@@ -126,8 +126,8 @@ In projectSchema, we listed out the twelve different keys we need to create the 
 
 With the userSchema, extra care is taken to the types of information that is stored in the MongoDB database. It would be unethical and illegal to store users' passwords in a readable, accessible format. The use of Mongoose unique validator and bcrypt ensures that the passwords are encrypted before they are saved to the database. 
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/4oLu4Wu.png" width="600" height="400" />
+<img src="https://i.imgur.com/UPWr6n2.png" width="600" height="700" />
 
 #### Router ####
 
@@ -135,7 +135,7 @@ We built the router in the backend as a separate file in the config folder. We s
 
 We continually added more routes and controllers as and when we needed them for our backend. After projects, we added user routes with authentication and then secure routes for the projects. Primarily David was responsible for this but we did code along as a team.
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/DsQFthV.png" width="600" height="700" />
 
 #### Authentication & Error Handling #### 
 
@@ -143,9 +143,9 @@ By the third day, we had implemented the error handling and secure routes and us
 
 When building the back end it was key to have error handling so if the testing doesn’t work, we have more of an idea why. We added a 404 error if the server was unable to find the requested page. We also added a 422 error which is a validation error that means you do not have permission for the page. 
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/DsQFthV.png" width="600" height="700" />
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/hN98UEx.png" width="600" height="400" />
 
 ## The Build Front End ## 
 
