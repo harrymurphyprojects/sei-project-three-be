@@ -16,7 +16,7 @@
 * Wins & Learning
 * Areas For Future Development
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="900" height="600" />
+<img src="https://i.imgur.com/qZYSb58.png" width="700" height="600" />
 
 ## Project Overview ##
 
@@ -112,7 +112,7 @@ Tuesday
 
 Below is a screenshot of the planning that we did as a group. 
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="900" height="600" />
+<img src="https://i.imgur.com/lAqNNcF.png" width="600" height="600" />
 
 ## The Build Back End ## 
 
@@ -145,7 +145,7 @@ When building the back end it was key to have error handling so if the testing d
 
 <img src="https://i.imgur.com/DsQFthV.png" width="600" height="700" />
 
-<img src="https://i.imgur.com/hN98UEx.png" width="600" height="400" />
+<img src="https://i.imgur.com/hN98UEx.png" width="600" height="700" />
 
 ## The Build Front End ## 
 
@@ -157,7 +157,7 @@ This is the API page where the get requests were refactored too. “getAllCharac
 
 The API page for Epop is a lot more complicated than the project 2 I completed weeks prior. One advantage is that due to our team making the back end, we didn’t have any dodgy RESTful API documentation to follow. The introduction of “.post” allowed the user to pass information to the back end. Posting the information needed to build projects, register and log in. The “.delete” restful route allows the user to delete projects they have created. 
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/rIanXEN.png" width="400" height="700" />
 
 #### Navigation #### 
 
@@ -165,34 +165,34 @@ There were two main challenges when navigating a larger application like Epop. F
 
 The four destinations you can access from the Navbar are: “/” which is the home page, “/favourites” which allows authorised users to see their favourited projects, “/projects/create” which allows authorised users to upload projects. “/register” is the registration page where users can sign up with their details. “/login” is the login page where users can log in to the website. Once logged in, the favourites, upload and log out are now accessible to the user. This conditional rendering works by using the “isAuth” const and a ternary operator. If “isAuth” is true (the user is logged in) the favourites, upload and log out features are shown. If false they are not shown. 
 
-<img src="https://i.imgur.com/4gMsgKy.png" width="600" height="200" />
+<img src="https://i.imgur.com/4gMsgKy.png" width="600" height="600" />
 
-<img src="https://i.imgur.com/YEtLHVh.png" width="600" height="200" />
+<img src="https://i.imgur.com/YEtLHVh.png" width="600" height="100" />
 
-<img src="https://i.imgur.com/edp3Fwm.png" width="600" height="200" />
+<img src="https://i.imgur.com/edp3Fwm.png" width="600" height="100" />
 
 #### Add Comment #### 
 
 The ability to add comments to projects you like was one of the goals we had for this project. What is a comment? And where do they go? The route for a comment you can see on the Axios.post request. The comments URL is “/API/projects/projectId/comments”, this ensures that the comments end up on the correct pages. The Axios section should have been refactored onto the API page but we must not have gotten around to it. Although it makes the readability worse as the code is longer, it does make it easier to understand what goes on the page if you haven’t looked at the code in a while. 
 
-<img src="https://i.imgur.com/Ueq7ZYF.png" width="600" height="200" />
+<img src="https://i.imgur.com/Ueq7ZYF.png" width="600" height="600" />
 
-<img src="https://i.imgur.com/u7fqsWb.png" width="600" height="200" />
+<img src="https://i.imgur.com/u7fqsWb.png" width="600" height="600" />
 
 
 #### Styling #### 
 
 For styling, we chose to use SASS rather than a more encompassing styling framework like Bootstrap or Bulma. As you can see from the examples below we are quite close to the themes that are on Depop. I will show some snippets of the code which contribute to this effect.
 
-<img src="https://i.imgur.com/J2xBAQm.png" width="600" height="500" />
+<img src="https://i.imgur.com/J2xBAQm.png" width="800" height="500" />
 
-<img src="https://i.imgur.com/j60DZnc.png" width="600" height="500" />
+<img src="https://i.imgur.com/j60DZnc.png" width="800" height="500" />
 
 In order to style in SASS, I first wrote out what content I needed on the page. In this code snippet, you can see I have written a div called “hero” with a nested `<h1>` and `<p>` element inside it. Using flexbox in the SASS gave me greater control over how they were positioned relative to other `<div>` on the page. I added in a media query that reduces the sizing of the “hero” section when on a smaller screen. 
 
-<img src="https://i.imgur.com/2uxPt4g.png" width="600" height="600" />
+<img src="https://i.imgur.com/2uxPt4g.png" width="600" height="400" />
 
-<img src="https://i.imgur.com/CSoJsiO.png" width="600" height="700" />
+<img src="https://i.imgur.com/CSoJsiO.png" width="600" height="600" />
 
 ## Bugs ## 
 
