@@ -165,17 +165,19 @@ There were two main challenges when navigating a larger application like Epop. F
 
 The four destinations you can access from the Navbar are: “/” which is the home page, “/favourites” which allows authorised users to see their favourited projects, “/projects/create” which allows authorised users to upload projects. “/register” is the registration page where users can sign up with their details. “/login” is the login page where users can log in to the website. Once logged in, the favourites, upload and log out are now accessible to the user. This conditional rendering works by using the “isAuth” const and a ternary operator. If “isAuth” is true (the user is logged in) the favourites, upload and log out features are shown. If false they are not shown. 
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/4gMsgKy.png" width="600" height="200" />
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/YEtLHVh.png" width="600" height="200" />
+
+<img src="https://i.imgur.com/edp3Fwm.png" width="600" height="200" />
 
 #### Add Comment #### 
 
 The ability to add comments to projects you like was one of the goals we had for this project. What is a comment? And where do they go? The route for a comment you can see on the Axios.post request. The comments URL is “/API/projects/projectId/comments”, this ensures that the comments end up on the correct pages. The Axios section should have been refactored onto the API page but we must not have gotten around to it. Although it makes the readability worse as the code is longer, it does make it easier to understand what goes on the page if you haven’t looked at the code in a while. 
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/Ueq7ZYF.png" width="600" height="200" />
 
-<img src="https://i.imgur.com/tjtBJJB.png" width="600" height="200" />
+<img src="https://i.imgur.com/u7fqsWb.png" width="600" height="200" />
 
 
 #### Styling #### 
